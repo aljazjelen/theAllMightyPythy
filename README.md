@@ -16,11 +16,11 @@
 """
 
 
-""" PHYSICAL PROPERTIES """
-" Engine "
-engine = sineEngine(RPM, meanTorque, fluctTorque, cyl)
+PHYSICAL PROPERTIES
+Engine:
+    engine = sineEngine(RPM, meanTorque, fluctTorque, cyl)
 
-" DoubleMassFlywheel "
+" DoubleMassFlywheel
 dmf = DMF(k1, k2, c1, c2, j1, j2)
 
 " Transmission "
