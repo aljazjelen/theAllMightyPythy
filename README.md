@@ -23,19 +23,19 @@
 
     engine = sineEngine(RPM, meanTorque, fluctTorque, cyl)
 
-DoubleMassFlywheel
+### DoubleMassFlywheel
    
     dmf = DMF(k1, k2, c1, c2, j1, j2)
 
-Transmission
+### Transmission
 
     trans = Transmission(RPM,jTr,kTr,cTr)
 
-Wheels
+### Wheels
 
     wheels = Wheels(RPM,jWhe,kWhe,cWhe)
     
 
-POWERTRAIN ASSEMBLY
+## POWERTRAIN ASSEMBLY
 
     pwtr = Powertrain(engine,dmf,trans,wheels)
