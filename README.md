@@ -16,10 +16,10 @@
 
 
 
-PHYSICAL PROPERTIES
+## PHYSICAL PROPERTIES
 
     
-Engine
+### Engine
 
     engine = sineEngine(RPM, meanTorque, fluctTorque, cyl)
 
